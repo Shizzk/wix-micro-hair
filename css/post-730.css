@@ -110,7 +110,9 @@
   display: inline-block;
   z-index: 1; /* Гарантируем, что текст всегда поверх свечения */
 }
-
+.elementor-730 .elementor-element.elementor-element-da9637f .team_member_carousel_content {
+    height: 220px !important;
+}
 .highlighted-text::before {
   content: "";
   position: absolute;
@@ -129,4 +131,5 @@
   
   /* Размещаем под текстом */
   z-index: -1; 
+
 }/* End custom CSS */
